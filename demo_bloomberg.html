@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+  <title>Page Title</title>
+  <script src="jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.bloomberg_carousel.js" type="text/javascript" charset="utf-8"></script>
+  <style type="text/css" media="screen">
+    #bloomberg_carousel{background:black; color:white; font-weight:bold; font-family:Arial;}
+    #bloomberg_carousel span{color:yellow; margin:0 0 0 10px}
+    #bloomberg_carousel span.rising{color:#0f0;}
+    #bloomberg_carousel span.low{color:#f00;}
+  </style>
+</head>
+<body id="">
+  <h1 id="">Bloomberg Sample</h1>
+  <div id="bloomberg_carousel">
+    <ul>
+      <li>Google <span>530.33 <span class="low">&darr;</span></span></li>
+      <li>Dell Inc. <span>13.41 <span class="rising">&uarr;</span></span></li>
+      <li>Intel <span>20.56 <span class="low">&darr;</span></span></li>
+      <li>Microsoft <span>28.40 <span class="low">&darr;</span></span></li>
+      <li>Eastman Kodak <span>5.79 <span class="rising">&uarr;</span></span></li>
+    </ul>
+  </div>
+  <script type="text/javascript" language="javascript" charset="utf-8">
+  //<![CDATA[
+    $("#bloomberg_carousel").bloombergCarousel({ margin: 75, max_width: 400 });
+  //]]>
+  </script>
+</body>
+</html>
