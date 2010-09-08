@@ -1,3 +1,4 @@
+
 #About
 **jQuery Bloomberg Carousel** is a plug-in to display information like the Bloomberg channel does. [Twitter's homepage](http://twitter.com) have something similar to display trending topics.
 
